@@ -1,5 +1,5 @@
 build: main.cpp
-	mkdir build
+	mkdir -p build
 	g++ main.cpp -o build/main -lGL -lGLEW -lglut
 
 
