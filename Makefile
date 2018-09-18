@@ -1,2 +1,2 @@
-build:
-	g++ main.cpp -o main -lGL -lGLEW -lglut
+build: main.cpp
+	g++ main.cpp -o build/main -lGL -lGLEW -lglut
